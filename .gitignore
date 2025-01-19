@@ -1,0 +1,30 @@
+# Ignorar pastas de build
+bin/
+obj/
+out/
+
+# Ignorar arquivos de usuário do Visual Studio
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignorar cache e configurações locais
+.vs/
+.idea/
+*.log
+
+# Ignorar arquivos temporários do sistema
+*.tmp
+*.temp
+*.DS_Store
+Thumbs.db
+
+# Ignorar pacotes gerados automaticamente
+packages/
+*.nupkg
+
+# Ignorar arquivos de depuração
+*.pdb
+*.ilk
+*.idb
